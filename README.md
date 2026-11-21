@@ -1,5 +1,9 @@
 # Solvato
 
+> **Dondurulmuş kopya (21 Kasım 2026).** Bu repo Solvato'nun Android sürümü. iOS App Store'a çıkana kadar burada
+> **kod yazılmıyor**. Aktif geliştirme `solvato-ios` reposunda. Android işi başlayınca `src/` oradan buraya alınır,
+> sonra Android'e özel işler (Google Play kapalı testi, simgeler, geri tuşu, bildirim izni) yapılır.
+
 Piyano öğrencileri için nota okuma, ritim, akor ve müzik terimleri pratiği.
 iOS ve Android'de çalışan tek bir web uygulaması: **React 19 + TypeScript + Vite**, yerel kabuk **Capacitor 7**.
 Sunucu yok; tüm ilerleme telefonda saklanır.
