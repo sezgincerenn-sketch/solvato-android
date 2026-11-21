@@ -3,6 +3,11 @@
 > **Dondurulmuş kopya (21 Kasım 2026).** Bu repo Solvato'nun Android sürümü. iOS App Store'a çıkana kadar burada
 > **kod yazılmıyor**. Aktif geliştirme `solvato-ios` reposunda. Android işi başlayınca `src/` oradan buraya alınır,
 > sonra Android'e özel işler (Google Play kapalı testi, simgeler, geri tuşu, bildirim izni) yapılır.
+>
+> - **`solvato` reposu yedek: ona hiçbir şekilde dokunma.** Değişiklikler yalnızca `solvato-ios` ve `solvato-android`'de.
+> - **Birebir uyum:** Android sürümü mevcut uygulamayla (ve native iOS sürümüyle) birebir aynı olmalı: ekranlar,
+>   akışlar, metinler, renkler, yazı tipleri, ölçüler, animasyonlar ve kurallar. Yeniden tasarım yok; fark gerekiyorsa
+>   önce Ceren'e sor.
 
 Claude Code'un bu repoda nasıl çalışacağı. Kodun yapısı `README.md`'de, ürün kararları ve yol haritası `docs/URUN.md`'de,
 çalışma sisteminin Ceren'e anlatılmış hali `docs/CALISMA-SISTEMI.md`'de.
